@@ -30,7 +30,7 @@ class VirtualPet
             return;
         }
 
-        Console.WriteLine($"{name} is playing. :D");
+        Console.WriteLine($"{name} is playing and is happy. :D");
         health += 10;
         hunger += 5;
     }
