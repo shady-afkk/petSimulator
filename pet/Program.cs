@@ -73,7 +73,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to Virtual Pet simulator!");
+        Console.WriteLine("Welcome to Virtual Pet simulator application!");
         Console.Write("Please enter your pet's name: ");
         string name = Console.ReadLine();
 
@@ -81,7 +81,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\nPlease select an option from the optiona below:");
+            Console.WriteLine("Please select an option from the options below:");
             Console.WriteLine("1. Show status");
             Console.WriteLine("2. Play");
             Console.WriteLine("3. Feed");
@@ -109,7 +109,7 @@ class Program
                     Console.WriteLine("Goodbye!");
                     return;
                 default:
-                    Console.WriteLine("Invalid option. Please try again.");
+                    Console.WriteLine("Invalid option. Please try again now.");
                     break;
             }
 
