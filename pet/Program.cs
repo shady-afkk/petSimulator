@@ -56,14 +56,14 @@ class VirtualPet
             return;
         }
 
-        Console.WriteLine($"{name} is sleeping. Zzz");
+        Console.WriteLine($"{name} is sleeping. Zzz!!!");
         health += 10;
         hunger += 5;
     }
 
     public void Grow()
     {
-        age++;
+        age++; //age increases by 1
         health -= 10;
         hunger -= 5;
     }
